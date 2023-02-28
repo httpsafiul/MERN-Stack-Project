@@ -11,7 +11,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () =>{
     return <>
         <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar elevation={0} position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Shop Everything
